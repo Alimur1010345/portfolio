@@ -128,7 +128,7 @@ nav{
 .aboutme_container{
     background-color: #FFF8F3;
     max-width: 1140px;
-    height: 550px;
+    height: 450px;
     margin: 0 auto;
     text-align: center;
     padding: 131px 157px 131px 156px;
@@ -150,4 +150,53 @@ nav{
 .aboutme_contact{
     display: flex;
     justify-content: space-around;
+}
+#who_am_i{
+    margin-top: 130px;
+   
+
+}
+#who_am_i .who_header{
+    max-width: 1140px;
+    width: 887px;
+  margin: 0 auto;
+  text-align: center;
+
+    
+}
+#who_am_i .who_header h1{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+#who_am_i .who_header p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #787878;
+}
+
+.card_container{
+    max-width: 1140px;
+    width: 81%;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: flex;
+    gap: 15px;
+}
+
+.card_container .card{
+    max-width: 267px;
+    height: 377px;
+}
+
+.card .card_description{
+    padding: 0 30px 0 30px;
+}
+
+.card{
+    background-color: #fff8f3;
+    box-shadow: 0 6px 50px 0 #00000028;
+}
+.card_icone img{
+    padding: 30px;
 }
