@@ -1,51 +1,63 @@
+
+/* universal style starts */
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    max-width: 1536px;
-    background-color: #dbcdc3;
+}
 
     
 .open-sans_font{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto; 
 }
-}
-
-.un_btn{
-    background-color: #FD6E0A;
-    height: 50px;
-    width: 100px;
+.btn{
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 35px;
     font-size: 20px;
     font-weight: bold;
     color: white;
-    border: none;
-    border-radius: 5px;
+}
+
+/* universal style ends */
+
+
+/* main Style starts */
+header{
+    background-color: #fff8f3;
+    padding-top: 50px;
 }
 nav{
-    display: flex;
-    width:71%;
-    background-color: #e6c8b3;
-    margin: 0 auto;
-    margin-top: 50px;
-    justify-content:space-between;
-    align-items: center;
+    width: 71%;
+    max-width: 1140px;
     
-}
-.orange{
-    color: orange;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-nav ul{
-    list-style: none;
+.logo h2{
+    font-size: 45px;
+    font-size: 900px;
+
+}
+.logo .orange{
+    color: orange;
+} 
+
+.menu{
     display: flex;
     gap: 51px;
+    list-style: none;
     align-items: center;
-    
 }
 
-ul li a{
+.menu a{
     text-decoration: none;
-    color: black;
-    font-size: 1.2rem;
+    color: #474747;
+    font-weight: ;
+   
 }
