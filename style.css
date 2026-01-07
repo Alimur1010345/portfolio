@@ -200,3 +200,118 @@ nav{
 .card_icone img{
     padding: 30px;
 }
+
+
+#resume_sec{
+    margin-top: 130px;
+    margin-bottom: 50px;
+   
+}
+
+#resume_sec h1{
+ 
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+
+}
+#resume_sec .resume_title{
+    text-align: center;
+    
+}
+.educational_sec h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+    
+}
+
+.resume_container{
+    border-top: 113px;
+    max-width: 1140px;
+    width: 81%;
+    display: flex;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.edu_card h4{
+    font-size: 25px;
+    color: #757575;
+}
+.edu_card p{
+    font-size: 16px;
+    color: #757575;
+}
+
+.educational_sec .edu_card{
+    width: 551px;
+    margin-top: 30px;
+}
+
+.resume_btn{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.resume_btn button{
+    width: 200px;
+    height: 64px;
+    border: none;
+    background-color: #FD6E0A;
+    color: white;
+    border-radius: 5px;
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#footer_sec{
+    background-color: #FFF8F3;
+    margin-top: 130px;
+    padding: 130px 0;
+  
+}
+.footer_container{
+    max-width: 1140px;
+    width: 81%;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+}
+.footer_container h1{
+    font-size: 35px;
+    font-weight: bol;
+    color: #181818;
+}
+
+.footer_container p{
+    font-size: 16px;
+    color: #474747;
+}
+
+.footer_container .contact{
+    width: 562px;
+    margin-bottom: 30px;
+}
+.footer_container .contact p{
+    width: 562px;
+    margin-bottom: 30px;
+}
+
+.contact_icon img{
+    margin-right: 30px;
+}
+
+
+
+.footer_container input[type="text"], textarea{
+width: 461px;
+margin-bottom: 24px;
+font-size: 16px;
+line-height: 28px;
+color: #9a3030;
+padding: 18px 0 18px 30px;
+border-radius: 5px;
+resize: none;
+}
